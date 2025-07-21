@@ -1,0 +1,66 @@
+:root {
+  --primary: #1e88e5;
+  --accent: #1565c0;
+  --bg: #f9f9f9;
+  --text: #333;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background-color: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+
+header {
+  background: var(--primary);
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+header .btn {
+  background: white;
+  color: var(--primary);
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 30px;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+section {
+  padding: 50px 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+section h2 {
+  margin-bottom: 20px;
+  color: var(--accent);
+}
+
+.skills ul, .education ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+.project-card {
+  background: white;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-left: 5px solid var(--primary);
+  border-radius: 5px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #eee;
+}
